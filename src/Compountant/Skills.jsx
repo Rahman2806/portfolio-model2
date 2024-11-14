@@ -59,23 +59,23 @@ export default function Skills() {
                 </div>
                 <div className='item'>
                   <img src={meter2} alt="Bootstrap Skill Meter" />
-                  <h5>Bootstrap</h5>
+                  <h5>React Developer</h5>
                 </div>
                 <div className='item'>
                   <img src={meter3} alt="ReactJS Skill Meter" />
-                  <h5>ReactJS</h5>
+                  <h5> Frontend Developer</h5>
                 </div>
                 <div className='item'>
                   <img src={meter2} alt="Node.js Skill Meter" />
-                  <h5>Node.js</h5>
+                  <h5>Accounting and Financial Reporting</h5>
                 </div>
                 <div className='item'>
                   <img src={meter2} alt="Express.js Skill Meter" />
-                  <h5>Express.js</h5>
+                  <h5>Prepare Journals and Vouchers</h5>
                 </div>
                 <div className='item'>
                   <img src={meter2} alt="MongoDB Skill Meter" />
-                  <h5>MongoDB</h5>
+                  <h5>Proficient in Microsoft Excel</h5>
                 </div>
               </Carousel>
             </div>

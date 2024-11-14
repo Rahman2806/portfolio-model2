@@ -10,7 +10,7 @@ export default function Banner() {
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const toRotate = ['Web Designer', 'Full Stack Developer', 'MERN Stack Developer'];
+    const toRotate = ['B.Com', 'MBA (IT Management)', 'Web Developer',];
     const period = 2000;
 
     const updateText = useCallback(() => {
@@ -52,13 +52,10 @@ export default function Banner() {
                                     <span className='tagline'>Welcome to My Portfolio</span>
                                     <h1>{`Hi I'm Abdul Rahman`} <span className='wrap'>{text}</span></h1>
                                     <p>
-                                        I design visually appealing and user-friendly websites. My goal is to help and satisfy clients with top-notch web development solutions.
+                                    A motivated and detail-oriented fresher with a Bachelor’s degree in Commerce (B.Com) and currently pursuing an MBA in IT Management with a focus on Online Programming. Possessing a strong foundation in web development, MS Excel, and accounting concepts, with the ability to apply technical skills to real-world business scenarios. Currently expanding expertise in programming with a focus on Golang programming Language. Seeking an entry-level position where I can leverage my technical skills, problem-solving abilities, and academic knowledge to contribute effectively to a growing organization.
                                     </p>
-                                    <button 
-                                        onClick={() => console.log('connect')} 
-                                        aria-label="Connect with me"
-                                    >
-                                        Let's Connect <FiArrowRightCircle size={25} />
+                                    <button>
+                                       <a href={'https://www.canva.com/design/DAGVVfN3vxo/3t6zgqXgUg9AI0oSTzLing/view?utm_content=DAGVVfN3vxo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hdc8ee3cd51'}> My Resume <FiArrowRightCircle size={25} /></a>
                                     </button>
                                 </div>
                             )}
